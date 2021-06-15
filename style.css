@@ -33,6 +33,7 @@ body {
   width: 350px;
 }
 
+/* "Grey" progress bar */
 .progress-container::before {
   content: "";
   background-color: var(--line-border-empty);
@@ -45,6 +46,7 @@ body {
   z-index: -1;
 }
 
+/* Blue progress bar */
 .progress {
   background-color: var(--line-border-fill);
   position: absolute;
